@@ -24,9 +24,9 @@
                         label = "QWERTY";
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T    &kp Y &kp U &kp I    &kp O   &kp P    &kp BKSP
-   &kp LSHFT  &kp A &kp S &kp D &kp F &kp G    &kp H &kp J &kp K    &kp L   &kp SEMI &kp QUOT 
-   &kp LCTL &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp RSFT
-              &kp LGUI  &mo NUMROW &kp ENTER    &kp SPC &mo ADJUST &kp RALT
+   &kp ESC  &kp A &kp S &kp D &kp F &kp G    &kp H &kp J &kp K    &kp L   &kp SEMI &kp QUOT 
+   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp LCTL
+              &kp LCTL &kp LGUI &kp SPC    &kp ENTER &mo NUMROW &kp LALT
                         >;
                 };
 
@@ -34,9 +34,9 @@
                         label = "GAMING";
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T    &kp Y &kp U &kp I    &kp O   &kp P    &kp BKSP
-   &kp LSHFT  &kp A &kp S &kp D &kp F &kp G    &kp H &kp J &kp K    &kp L   &kp SEMI &kp QUOT 
-   &kp LCTL &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp RSFT
-              &kp LGUI  &mo NUMROW &kp ENTER    &kp SPC &mo ADJUST &kp RALT                        >;
+   &kp ESC  &kp A &kp S &kp D &kp F &kp G    &kp H &kp J &kp K    &kp L   &kp SEMI &kp QUOT 
+   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp LCTL
+              &kp LCTL &kp LGUI &kp SPC    &kp ENTER &mo NUMROW &kp LALT                      >;
                 };
 
                 numpad_layer {
@@ -52,10 +52,11 @@
                 numrow_layer {
                         label = "NUMROW";
                         bindings = <
-   &kp ESC   &kp N1 &kp N2 &kp N3    &kp N4    &kp N5       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0   &kp DEL
+   &kp TAB   &kp N1 &kp N2 &kp N3    &kp N4    &kp N5       &kp N6   &kp N7   &kp N8 &kp N9    &kp N0   &kp DEL
    &kp GRAVE &none  &none  &kp PSCRN &kp MINUS &kp EQUAL    &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SEMI &none
    &none     &none  &none  &kp BSLH  &kp LBKT  &kp RBKT     &none    &none    &none  &none     &none    &none 
-                          &kp LGUI &mo NUMROW &mo CONFIG   &kp SPC &mo ADJUST &kp RALT
+                          &kp LCTL &kp LGUI &mo ADJUST    &mo CONFIG  &mo NUMROW &kp LALT
+
                         >;
                 };
 
@@ -65,7 +66,7 @@
    &kp F1      &kp F2  &kp F3   &kp F4    &kp F5 &kp F6    &kp F7   &kp F8   &kp F9 &kp F10   &kp F11 &kp F12
    &kp CAPS    &kp INS &kp HOME &kp PG_UP &none  &none     &kp LEFT &kp DOWN &kp UP &kp RIGHT &none   &none
    &tog NUMPAD &kp DEL &kp END  &kp PG_DN &none  &none     &none    &none    &none  &none     &none   &none
-                           &kp LGUI &kp LCTL &mo NUMROW    &kp SPC &mo ADJUST &tog GAMING
+                           &kp LCTL &kp LGUI &mo ADJUST    &tog GAMING &mo NUMROW &kp LALT
                         >;
                 };
 
