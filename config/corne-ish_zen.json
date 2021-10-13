@@ -1,0 +1,139 @@
+[
+  [
+    "~\n`\n\n\n\n\n\n\n\nTAB",
+    "!\n1\n\n\n\n\n\n\n\nQ",
+    "@\n2\n\n\n\n\n\n\n\nW",
+    "#\n3\n\n\n\n\n\n\n\nE",
+    "$\n4\n\n\n\n\n\n\n\nR",
+    "%\n5\n\n\n\n\n\n\n\nT",
+    {
+      "x": 1
+    },
+    "^\n6\n\n\n\n\n\n\n\nY",
+    "&\n7\n\n\n\n\n\n\n\nU",
+    "*\n8\n\n\n\n\n\n\n\nI",
+    "(\n9\n\n\n\n\n\n\n\nO",
+    ")\n0\n\n\n\n\n\n\n\nP",
+    {
+      "fa": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "DEL\nDEL\n\n\n\n\n\n\n\nBS"
+  ],
+  [
+    {
+      "a": 7
+    },
+    "ESC",
+    {
+      "a": 4,
+      "f": 3
+    },
+    "\nF1\n\n\n\n\n\n\n\nA",
+    {
+      "f": 3
+    },
+    "\nF2\n\n\n\n\n\n\n\nS",
+    {
+      "f": 3
+    },
+    "\nF3\n\n\n\n\n\n\n\nD",
+    {
+      "f": 3
+    },
+    "\nF4\n\n\n\n\n\n\n\nF",
+    {
+      "f": 3
+    },
+    "\nF5\n\n\n\n\n\n\n\nG",
+    {
+      "x": 1,
+      "f": 3
+    },
+    "\nF6\n\n\n\n\n\n\n\nH",
+    {
+      "f": 3
+    },
+    "_\n-\n\n\n\n\n\n\n\nJ",
+    {
+      "f": 3
+    },
+    "=\n+\n\n\n\n\n\n\n\nK",
+    {
+      "f": 3
+    },
+    "{\n[\n\n\n\n\n\n\n\nL",
+    {
+      "f": 3
+    },
+    "}\n]\n\n\n\n\n\n\n\n;",
+    {
+      "f": 3
+    },
+    "|\n\\\n\n\n\n\n\n\n\n'"
+  ],
+  [
+    {
+      "a": 7
+    },
+    "SHIFT",
+    {
+      "a": 4,
+      "f": 3
+    },
+    "\nF7\n\n\n\n\n\n\n\nZ",
+    {
+      "f": 3
+    },
+    "\nF8\n\n\n\n\n\n\n\nX",
+    {
+      "f": 3
+    },
+    "\nF9\n\n\n\n\n\n\n\nC",
+    {
+      "f": 3
+    },
+    "\nF10\n\n\n\n\n\n\n\nV",
+    {
+      "f": 3
+    },
+    "\nF11\n\n\n\n\n\n\n\nB",
+    {
+      "x": 1,
+      "f": 3
+    },
+    "\nF12\n\n\n\n\n\n\n\nN",
+    {
+      "a": 7
+    },
+    "M",
+    ",",
+    ".",
+    "/",
+    "ENTER"
+  ],
+  [
+    {
+      "x": 3
+    },
+    "CTL",
+    "CMD",
+    "SPACE",
+    {
+      "x": 1
+    },
+    "LOWER",
+    "RAISE",
+    "ALT"
+  ]
+]
